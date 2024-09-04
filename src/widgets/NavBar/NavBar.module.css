@@ -1,0 +1,24 @@
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  color: #000;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.link:hover {
+ color: #5b577e;
+}
+
+.active {
+  text-decoration: underline;
+}
+

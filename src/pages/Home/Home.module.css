@@ -1,0 +1,46 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  min-width: 300px;
+  background-color: #c4c2c2;
+  border-radius: 8px;
+  padding-inline: 5px;
+  padding-bottom: 10px;
+  margin-top: 150px;
+  margin-bottom: 150px;  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  outline: none;
+  padding: 0.6em 1.2em;
+  min-width: 300px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.notes_wrap {
+  min-height: 50px;
+  text-align: center;
+}
+
+.user_info,
+.error_info,
+.loading_info  {
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+.error_info,
+.loading_info {
+  color: var(--main-color);
+}

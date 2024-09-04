@@ -1,0 +1,18 @@
+.albumList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+
+.albumList__item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--main-color);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--main-color);
+}

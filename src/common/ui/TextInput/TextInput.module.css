@@ -1,0 +1,8 @@
+.input {
+  outline: none;
+  border: 2px solid var(--main-color);
+}
+
+.input:focus {
+  border: 2px solid var(--ternary-color);
+}
