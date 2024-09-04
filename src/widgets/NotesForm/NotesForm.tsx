@@ -1,9 +1,8 @@
 import { useAppDispatch } from "../../app/store/store";
 import { useFormik } from "formik";
 import * as yup from "yup";
-import { Note } from "../../data/notes/model/types";
-import { addNote } from "../../data/notes/store/notesSlice";
 import { Button, TextInput, ErrorMessage } from "../../common/ui";
+import { Note, addNote } from "../../data/notes";
 
 type Params = {
   resetForm: () => void;

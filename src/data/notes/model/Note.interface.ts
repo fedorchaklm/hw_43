@@ -1,4 +1,4 @@
-export type Note = {
+export interface Note {
   userNoteTitle: string;
   userNoteDescription: string;
-};
+}

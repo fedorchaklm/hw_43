@@ -1,2 +1,2 @@
-export type {Note} from './model/types';
+export type {Note} from './model/Note.interface';
 export * from './store/notesSlice';
